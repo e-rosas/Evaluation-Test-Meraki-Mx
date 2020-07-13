@@ -1,7 +1,7 @@
 module.exports = (sequelize, Sequelize) => {
     const Order = sequelize.define("order", {
       date: {
-        type: Sequelize.DATE
+        type: Sequelize.DATEONLY
       },
       quantity: {
         type: Sequelize.INTEGER,
